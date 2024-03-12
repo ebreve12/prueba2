@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+:root{
+	--menu-hover:#c41034;
+	--color-general:#000;
+	--color-titulos:#2d2d2d;
+}
+body{
+	font-size: 16px;
+	font-family: "Catamaran";
+}
+header{
+	background-color: #000000;
+	padding: 5px 0;
+	text-transform: uppercase;
+}
+#hero{
+	color: #FFFFFF;
+	background-image: url("../img/bg-sliders.jpg");
+	background-position: bottom center;
+	background-size: cover;
+	padding-top: 8%;
+	text-align: right;
+}
+#hero h1{
+	font-weight: 900;
+	font-size: 60px;
+	padding: 0 10%;
+}
+#hero ul{
+	list-style: none;
+	text-align: left;
+}
+#hero ul li{
+	margin-bottom: 3%;
+	padding-left: 20%;
+}
+#hero img{
+	height: 80%;
+}
+#banners{
+	padding: 2% 0;
+	margin-bottom: 2%;
+}
+.banner{
+	padding: 0;
+}
+#product{
+	text-align: center;
+}
+#product img{
+	height: 60%;
+}
+#product h3{
+	color: var(--color-titulos);
+	font-weight: 200;
+	margin-bottom: 3%;
+	text-align: left;
+}
+#product p{
+	color: var(--color-general);
+	text-align: left;
+	padding-right: 2%;
+}
+.product-button{
+	color: var(--menu-hover);
+	text-decoration: none;
+	border: 1px solid var(--menu-hover);
+	padding: 3% 10%;
+	border-radius: 50px;
+}
+.product-button:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 1px solid var(--menu-hover);
+	padding: 3% 10%;
+	border-radius: 50px;
+	background-color: var(--menu-hover);
+}
+#labels{
+	text-align: center;
+	margin: 2% 0;
+}
+#labels h2{
+	color: var(--color-titulos);
+	font-weight: 200;
+	margin-bottom: 2%;
+}
+#labels p{
+	color: var(--color-general);
+	}
+footer{
+	background-color: #323232;
+	color: #bababa;
+	padding: 50px 0;
+	text-align: center;
+}
+
